@@ -9,12 +9,19 @@ const assertEqual = function(actual, expected) {
 //function to take in two arrays and return true or false based on perfect match
 
 let eqArrays = function(arr1, arr2){
-  if (arr1 === arr2){
-    return true
-  } else {
-    return false
+  let bool;
+  if (arr1.length === arr2.length){
+    bool = true;
+    for (let x = 0; x < arr1.length; x++){
+      if (arr1[x] === arr2[x]){
+        bool = true;
+      } else {
+        return false;
+      }
+    }
+    return bool;
   }
-}
+};
 
 
 //test cases
