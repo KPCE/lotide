@@ -9,7 +9,7 @@ const assertEqual = function(actual, expected) {
 
 //function to compare two arrays, returns true if identical or false otherwise
 let eqArrays = function(arr1, arr2){
-  let bool;
+  let bool = false;
   if (arr1.length === arr2.length){
     bool = true;
     for (let x = 0; x < arr1.length; x++){
@@ -19,8 +19,8 @@ let eqArrays = function(arr1, arr2){
         return false;
       }
     }
-    return bool;
   }
+  return bool;
 };
 
 // function that returns the assertion of truthness or falseness
