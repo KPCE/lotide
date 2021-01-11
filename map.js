@@ -50,3 +50,4 @@ const results2 = map(numbers, num => num[0]);
 assertEqual(assertArraysEqual(resultant1, [ 'g', 'c', 't', 'm', 't', 'd' ]), 'this is true') // => true
 assertEqual(assertArraysEqual(results2, [1, 5, 9, 2, 1, 5]), 'this is false') // => false
 
+module.exports = map;

@@ -70,3 +70,5 @@ const fg = { f: "1", g: "2"};
 const gf = { f: "2", g: "2"};
 assertEqual(eqObjects(fg, gf), false); // => false
 assertEqual(eqObjects(ab, gf), false); // => false
+
+module.exports = eqObjects;

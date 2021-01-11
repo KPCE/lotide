@@ -39,3 +39,4 @@ assertEqual(countLetters('super duper'),{s: 1, u: 2, p: 2, e: 2, r: 2, d: 1});
 //   }
 //   return results;
 // }
+module.exports = countLetters
