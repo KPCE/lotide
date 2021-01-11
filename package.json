@@ -1,7 +1,7 @@
 {
   "name": "lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "mini replica of the original lotide library for learning purposes",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/KPCE/lotide.git"
   },
-  "author": "",
+  "author": "Jaime Reuss",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KPCE/lotide/issues"
